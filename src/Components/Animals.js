@@ -35,7 +35,7 @@ function App() {
 
 const getPets = async () => {
       // Store token data
-  const specificFetch = await fetch(`https://api.petfinder.com/v2/animals?organization=${org}&status=${status}`, {
+  const specificFetch = await fetch(`https://api.petfinder.com/v2/animals`, {
     headers: {
       'Authorization': `${tokenType} ${token}`,
       'Content-Type': 'application/x-www-form-urlencoded'
