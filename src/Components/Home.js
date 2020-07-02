@@ -1,12 +1,17 @@
 import React from 'react';
-import './Home.css';
-// import BackgroundHome from '../images/backgroundHome.png';
+import '../Styles/Home.css';
+import BackgroundHome from '../images/backgroundHome.png';
+
 
 function Home() {
  
   return (
-    <div>
-      <img className="bgImage" src="../images/backgroundHome.png" />
+    <div className="bgImage">
+      <div className="imageAdoptionDetailContainer">
+        <div className="catHomeImageContainer">
+          <div className="coolCatImage" />
+          </div>
+      </div>
     </div>
   );
 }
