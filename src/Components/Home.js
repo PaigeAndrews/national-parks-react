@@ -10,7 +10,8 @@ function Home() {
       <div className="imageAdoptionDetailContainer">
         <div className="catHomeImageContainer">
           <div className="coolCatImage" />
-          </div>
+          <div className="adoptInfo">tytfvtdrsdrdcrseseaesxs 5r56 5   t d d fdfsfg f jkh</div>
+        </div>
       </div>
     </div>
   );
